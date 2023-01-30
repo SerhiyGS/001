@@ -1,0 +1,104 @@
+:root {
+   --overflow-y: auto;
+/*   --imagefon: url("../img/background/spacew1.jpg");*/
+   --top: 0%;
+   --width: 90%;
+   --height: 90%;
+   --welcomefont: 1vmax;
+   --trans: 0.85;
+   --fontsize: 1vmin;
+   --kF: 0.9;
+   --font-family: 'SF Pro Display', "Roboto", -apple-system, BlinkMacSystemFont, "Apple Color Emoji", "Segoe UI", Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+*{
+   box-sizing: border-box;
+}
+html,
+body {
+   margin: 0px;
+   padding: 0px;
+   height: 100vh;
+   width: 100vw;
+   overflow: hidden;
+   /*font-family: Helvetica, Arial, sans-serif;*/
+   /*  font-family: 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif;*/
+   font-family: var(--font-family);
+   /*background-color: #000;*/
+   /*text-align: center;*/
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+
+#container_vidsotok1{
+   width: 30vmax;
+   height: 30vmax;
+   border-radius: 50%;
+   /*background: linear-gradient(45deg, rgb(142, 123, 215), rgb(219, 128, 172), rgb(242, 186, 149));*/
+   background:linear-gradient(45deg, rgb(142, 123, 215), rgb(248, 132, 188), rgb(244, 204, 178));
+
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+
+
+/*
+   border-style: solid;
+   border-width: 1px;
+   border-color: white;
+   */
+      /*border-color: linear-gradient(45deg, rgb(142, 123, 215), rgb(219, 128, 172), rgb(242, 186, 149));*/
+
+
+      /*linear-gradient(to right, red, purple);*/
+
+      /*border-image:*/
+      /*linear-gradient(45deg, rgb(142, 123, 215), rgb(219, 128, 172), rgb(242, 186, 149));*/
+}
+
+#subcontainer_vidsotok1 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   width: 90%;
+   height: 90%;
+
+   border-radius: 50%;
+   background-color: white;
+
+}
+
+
+#vidsotok1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+
+   font-size: 100px;
+   font-weight: bolder;
+
+   /*background-color: #2AA5A0;*/
+background: white;
+
+   background-image: linear-gradient(45deg, rgb(142, 123, 215), rgb(248, 132, 188), rgb(244, 204, 178));
+
+
+
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+   border: 5px solid #150677;
+
+
+}
+
+

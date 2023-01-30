@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Круговий градієнт</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="">
+   </head>
+   <style>
+      *{
+         box-sizing: border-box;
+         margin: 0;
+         padding: 0;
+      }
+      :root{
+         --zsuv: 0%;
+         --povorot: .0turn;
+         /*--bgcolor: rgba(200, 230, 230);*/
+         --bgcolor: rgba(255, 255, 255);
+         --osncolor: rgb(151, 199, 229);
+
+         --fontsize: 1.9;
+         --fontrozmir:  1.9vmax;
+
+         --rozmirgrafik: calc( var(--fontsize) * 50px);
+      }
+      #grafik_container{
+         position: absolute;
+         left: 600px;
+         top: 400px;
+         width: var(--rozmirgrafik);
+         height: var(--rozmirgrafik);
+
+         display: flex;
+         justify-content: center;
+         justify-items: center;
+         align-items: center;
+         align-content: center;
+
+         background-color: var(--bgcolor);
+      }
+      #grafik_zalyvka{
+         position: absolute;
+         left: 0;
+         top: 0;
+         width: 100%;
+         height: 100%;
+         border-radius: 50%;
+         background: conic-gradient(from 0deg,
+                        rgb(250, 200, 160) 0%,
+                        rgb(247, 186, 123) 15%,
+                        rgb(216, 119, 188) 20%,
+                        rgb(216, 119, 188) 40%,
+                        rgb(142, 123, 215) 45%,
+                        rgb(142, 123, 215) 65%,
+                        rgb(216, 119, 188) 70%,
+                        rgb(216, 119, 188) 90%,
+                        rgb(247, 186, 123) 95%,
+                        rgb(250, 200, 160) 100%
+                     );
+      }
+      /*#grafik_zalyvka::before{*/
+      #grafik_zalyvka::after{
+         content: "";
+         position: absolute;
+         left: 5%;
+         top: 5%;
+         width: 90.0%;
+         height: 90.0%;
+         border-radius: 50%;
+         background-color: var(--bgcolor);
+      }
+      #grafik_osnova{
+         position: absolute;
+         left: 0%;
+         top: 0%;
+         width: 100%;
+         height: 100%;
+         background: conic-gradient(from 0deg at 50% 50%,
+                        var(--osncolor) calc(100% - var(--zsuv)),
+                        transparent calc(100% - var(--zsuv)));
+         transform: rotate(var(--povorot));
+         border-radius: 50%;
+      }
+      #grafik_kolo{
+         width: 96%;
+         height: 96%;
+         background: conic-gradient(from 0deg at 50% 50%,
+                        var(--bgcolor) calc(100% - var(--zsuv)),
+                        transparent calc(100% - var(--zsuv)));
+         transform: rotate(var(--povorot));
+         border-radius: 50%;
+      }
+      #grafik_text {
+         position: absolute;
+         text-align: center;
+         width: 100%;
+         font-family: Roboto, Arial, sans-serif;
+         font-size: var(--fontrozmir);
+         font-weight: bolder;
+         background-image: linear-gradient(45deg,
+                        rgb(142, 123, 215) 20%,
+                        rgb(216, 119, 188) 50%,
+                        rgb(250, 200, 160) 80%
+                          );
+         background-clip: text;
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+      }
+   </style>
+   <body>
+      <!--[if lt IE 7]>
+         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+      <div id="grafik_container">
+         <div id="grafik_zalyvka"></div>
+         <div id="grafik_osnova"></div>
+         <div id="grafik_kolo"></div>
+         <div id="grafik_text" data-procent="72"></div>
+      </div>
+      <script>
+         function AnimeProc(param1, param2){
+            if (param1<param2){
+               setTimeout(()=>{
+                  param1++;
+                  grafik_text.innerHTML=param1+'%';
+                  document.documentElement.style.setProperty('--zsuv',param1+'%');
+                  let povorot=param1<10?'0.0'+param1+'turn':'0.'+param1+'turn';
+                  document.documentElement.style.setProperty('--povorot',povorot);
+                  AnimeProc(param1,param2);
+               },10);
+            }
+         }
+         AnimeProc(0,parseInt(grafik_text.dataset.procent));
+      </script>
+   </body>
+</html>

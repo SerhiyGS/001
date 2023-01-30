@@ -1,0 +1,290 @@
+Вся сторінка:
+Ш - 1440
+В - 4730
+Font - Poppins
+
+
+
+Message
+Ш - 14
+В - 12
+L - 112
+T - 28
+info@webmail.com - 12px
+Message + info@webmail.com = 145 - Ш 
+
+
+Phone
+Ш - 14
+В - 14
+L - 291
+T - 28
++987 8762 866 82 - 12px
+Phone + +987 8762 866 82 = 135 - Ш
+
+
+Facebook
+Ш - 20
+В - 20
+L - 1090
+T - 24
+Twitter
+Ш - 20
+В - 20
+Instagram
+Ш - 20
+В - 20
+Facebook + Twitter + Instagram = 118 - Ш
+
+
+ENGLISH - 12px
+ENGLISH + GALOCHKA = 70 - Ш
+
+
+
+Простір між Message та LOGO = 60
+
+Верхнє меню, кнопки - 14px
+Відстань від HOME до CONTACT = 630
+Button "Get a quote"
+Ш - 140
+В - 40
+L - 1150
+T - 90
+Lupa
+Ш - 20
+В - 20
+L - 1300
+T - 100
+
+
+
+Advance Innovation For IT Solutions - 52px
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabi sed metus id et viverra augue - 18px
+Синя Кнопка (1)
+Ш - 1560
+В - 49
+L - 150
+T - 540
+
+
+Коло 72%
+Ш - 65
+В - 65
+Business Growth - 14px
+Level is high - 10px
+Блок під 72%
+Ш - 243
+В - 105
+L - 706
+T - 493
+
+Правий верхній градієнт
+Ш - 432
+В - 490
+Правий верхній сірий блок
+Ш - 517
+В - 365
+L - 815
+T - 272
+
+
+
+Ліва верхня дужка
+T - 685
+
+
+
+Lorem ipsum dol sit amet, consec adipiscing - 14px
+Лівий верхній білий блок(з мозком)
+Ш - 190
+В - 230
+L - 4500
+T - 985
+Лівий верхній сірий блок
+Ш - 400
+В - 492
+L - 150
+T - 854
+
+
+We are the solution for IT problems - 40px
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie faucibus cras donec consequat urna. Mauris malesuada viverra nibh convallis consectetur adipiscing vitae - 14px
+L - 750
+More About - 14px
+Синя Кнопка (2)
+Ш - 156
+В - 49
+L - 750
+T - 1212
+
+
+
+Our Services For Technology You Needs - 44px
+Load more - 14px
+Заголовки під іконками в градієнті -20px
+Під ними 14px
+Середній градієнт
+Ш - 1138
+В - 450
+L - 150
+T - 1507
+
+
+
+Brand Software Solution - 18px
+Lorem ipsum dolor sit amet consectetu adipiscing elit. Molestie faucibus - 10px
+Середній сірий блок (1)
+Ш - 5100
+В - 200
+L - 170
+T - 2136
+Середній білий блок там де в ньому сірий блок (1)
+Ш - 550
+В - 310
+L - 150
+T - 2116
+
+
+
+See Our Works or Portofolio - 40px
+L - 812
+More About - 14px
+Синя Кнопка (3)
+Ш - 156
+В - 49
+L - 812
+T - 2313
+
+
+Brand Software Solution - 18px
+Lorem ipsum dolor sit amet consectetu adipiscing elit. Molestie faucibus - 10px
+Середній сірий блок (2)
+Ш - 510
+В - 200
+L - 170
+T - 2476
+Середній білий блок там де в ньому сірий блок (2)
+Ш - 550
+В - 310
+L - 150
+T - 2456
+
+
+Brand Software Solution - 18px
+Lorem00 ipsum dolor sit amet consectetu adipiscing elit. Molestie faucibus - 10px
+Середній сірий блок (3)
+Ш - 510
+В - 200
+L - 760
+T - 2476
+Середній білий блок там де в ньому сірий блок (3)
+Ш - 550
+В - 310
+L - 740
+T - 2456
+
+
+
+What People Say About Us - 40px
+L - 150
+T - 2926
+
+Круг для аватарки
+Ш - 80
+В - 80
+Lorem ipsum dolor sit amet, ino consectetur adipiscing elitoe. Molestie faucibus - 14px
+Dani Moreno - 14px
+Businessman - 12px
+Середній білий блочок(з сірими кругами) (1)
+Ш - 440
+В - 180
+L - 150
+T - 3017
+
+Круг для аватарки
+Ш - 80
+В - 80
+Lorem ipsum dolor sit amet, ino consectetur adipiscing elitoe. Molestie faucibus - 14px
+Dani Moreno - 14px
+Businessman - 12px
+Середній білий блочок(з сірими кругами) (2)
+Ш - 440
+В - 180
+L - 630
+T - 3017
+
+Круг для аватарки
+Ш - 80
+В - 80
+Lorem ipsum dolor sit amet, ino consectetur adipiscing elitoe. Molestie faucibus - 14px
+Dani Moreno - 14px
+Businessman - 12px
+Середній білий блочок(з сірими кругами) (3)
+Ш - 440
+В - 180
+L - 1110
+T - 3017
+
+
+
+Права нижня дужка
+T(правий низ) - 3500
+
+
+Great Technology Solution - 20px
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est ullamcorper mattis lacus eu, ornare imperdiet men sana in condimentum. Viverra id tortor enim posuere nullam. Vitae tincidunt bibendum quis at viverra etiam enim dictum teb. Sit non accumsan tempus, eu suspendisse quis - 14px
+Randi Saputra - 14px
+IT Consultant - 12px
+Нижній білий блок
+Ш - 550
+В - 350
+L - 150
+T - 3387
+
+
+Get The Latest News Here - 40px
+L - 785
+T - 3410
+
+09 April 2021 by Admin - 12px
+Lorem ipsum dolor sit amet, consecte adipiscing elit. Est ullamcorper - 14px
+Маленький нижній сірий блочок (1)
+Ш - 180
+В - 90
+L - 785
+T - 3527
+
+09 April 2021 by Admin - 12px
+Lorem ipsum dolor sit amet, consecte adipiscing elit. Est ullamcorper - 14px
+Маленький нижній сірий блочок (2)
+Ш - 180
+В - 90
+L - 785
+T - 3637
+
+
+
+Let`s Boost Your Business With The Latest Technolgy - 40px
+L - 290
+Нижній градієнт
+Ш - 1440
+В - 280
+T- 2937
+
+
+
+FACEBOOK Bottom
+Ш - 20
+В - 20
+L - 184
+T - 4560
+Twitter Bottom
+T- 4560
+Ш - 20
+В - 20
+Instagram Bottom
+T- 4560
+Ш - 20
+В - 20
+BOTTOM!! Facebook + Twitter + Instagram = 100 - Ш

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Front-end #1</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!--
+      <link rel="stylesheet" href="./style.css">
+      -->
+   </head>
+
+<style>
+
+:root {
+   --overflow-y: auto;
+/*   --imagefon: url("../img/background/spacew1.jpg");*/
+   --top: 0%;
+   --width: 90%;
+   --height: 90%;
+   --welcomefont: 1vmax;
+   --trans: 0.85;
+   --fontsize: 1vmin;
+   --kF: 0.9;
+   --font-family: 'SF Pro Display', "Roboto", -apple-system, BlinkMacSystemFont, "Apple Color Emoji", "Segoe UI", Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+*{
+   box-sizing: border-box;
+}
+html,
+body {
+   margin: 0px;
+   padding: 0px;
+   height: 100vh;
+   width: 100vw;
+   overflow: hidden;
+   /*font-family: Helvetica, Arial, sans-serif;*/
+   /*  font-family: 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif;*/
+   font-family: var(--font-family);
+   /*background-color: #000;*/
+   /*text-align: center;*/
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+#container_vidsotok1{
+   width: 30vmax;
+   height: 30vmax;
+   border-radius: 50%;
+   /*background: linear-gradient(45deg, rgb(142, 123, 215), rgb(219, 128, 172), rgb(242, 186, 149));*/
+   background:linear-gradient(45deg, rgb(142, 123, 215), rgb(248, 132, 188), rgb(244, 204, 178));
+
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+/*
+   border-style: solid;
+   border-width: 1px;
+   border-color: white;
+   */
+      /*border-color: linear-gradient(45deg, rgb(142, 123, 215), rgb(219, 128, 172), rgb(242, 186, 149));*/
+
+
+      /*linear-gradient(to right, red, purple);*/
+
+      /*border-image:*/
+      /*linear-gradient(45deg, rgb(142, 123, 215), rgb(219, 128, 172), rgb(242, 186, 149));*/
+}
+
+#subcontainer_vidsotok1 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   width: 90%;
+   height: 90%;
+
+   border-radius: 50%;
+   background-color: white;
+
+}
+
+
+#vidsotok1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+
+   font-size: 100px;
+   font-weight: bolder;
+
+   /*background-color: #2AA5A0;*/
+background: white;
+
+
+
+   background-image: linear-gradient(45deg, rgb(142, 123, 215), rgb(248, 132, 188), rgb(244, 204, 178));
+
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+
+
+   border: 5px solid #150677;
+
+
+}
+
+
+
+
+
+.grafik{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#container{
+   position: absolute;
+
+   width: 40vmax;
+   height: 40vmax;
+
+   background-color: rgb(136, 218, 218);
+   border: 1px solid black;
+}
+
+#kolo1{
+   position: absolute;
+
+   width: 100%;
+   height: 100%;
+
+   /*border: 5px solid red;*/
+/*
+   border-radius: 50%;
+   border-width: 20px;
+   border-style: solid;
+*/
+   /*border-color:  #2AA5A0;*/
+
+  /* border-image: linear-gradient(to right, darkblue, darkorchid) 1;*/
+
+
+  border-radius: 50%;
+  background: linear-gradient(white, white) padding-box,
+              linear-gradient(45deg, rgb(142, 123, 215), rgb(248, 132, 188), rgb(244, 204, 178)) border-box;
+  border: 20px solid transparent;
+
+
+
+/*
+ border-radius: 50%;
+ background: radial-gradient(circle at 20vmax 20vmax, transparent 10vmax, #0e823b 10vmax);
+*/
+
+
+
+}
+
+#kolo2{
+   position: absolute;
+   width: 90%;
+   height: 90%;
+
+
+   /*border: 5px solid blue;*/
+
+/*   background: linear-gradient(45deg, rgb(142, 123, 215), rgb(248, 132, 188), rgb(244, 204, 178));*/
+
+/*   border: 10px solid ;*/
+
+  border: 5px solid;
+
+  border-image: linear-gradient(45deg, rgb(142, 123, 215), rgb(248, 132, 188), rgb(244, 204, 178)) 1;
+
+
+
+   border-radius: 50%;
+
+
+}
+
+
+
+#kv1{
+
+position: absolute;
+top: 0vmax;
+right: 0vmax;
+
+width: 20vmax;
+height: 20vmax;
+
+background-color: white;
+
+border: 1px solid blue;
+
+}
+
+
+
+
+</style>
+
+   <body>
+      <!--[if lt IE 7]>
+         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+
+<div id="container" class="grafik">
+   <div id="kolo1" class="grafik"></div>
+<!--
+   <div id="kolo2" class="grafik">
+      <div id="kolo3" class="grafik">
+         <div id="vidsotok" class="grafik">72%</div>
+      </div>
+   </div>
+-->
+
+</div>
+
+
+<div id="kv1"></div>
+
+
+
+
+<!--
+      <script src="" async defer></script>
+-->
+   </body>
+</html>
