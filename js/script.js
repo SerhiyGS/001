@@ -155,9 +155,10 @@ VisibleTag(element);
     });
 
     sb1c2_3_p1.style.fontSize = sb1c2_3_p1.offsetWidth/10 + "px";
-    alert(sb1c2_3_p1.offsetWidth);
+
+    console.log(sb1c2_3_p1.offsetWidth);
     
-    alert(sb1c2_3_p1.style.fontSize);
+    console.log(sb1c2_3_p1.style.fontSize);
 
     
     /*
