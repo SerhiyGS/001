@@ -158,8 +158,6 @@ VisibleTag(element);
     alert(sb1c2_3_p1.offsetWidth);
     
     alert(sb1c2_3_p1.style.fontSize);
-
-
     
     
     /*
